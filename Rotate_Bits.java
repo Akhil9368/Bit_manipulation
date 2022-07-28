@@ -1,10 +1,11 @@
-// Only 100 test cases are passedout of 120
+
 class Solution
 {
     
     ArrayList<Integer> rotate(int N, int D)
     {
         // your c,Integerode here
+        D= D%16;
         int resultl =0;
         int resultr =0;
         int rotate = 16-D;
