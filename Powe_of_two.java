@@ -1,4 +1,4 @@
-public class Even_Or_Oddd {
+public class Power_Of_two {
     public static void main(String[] args) {
         int n=8;
         int count =0;
